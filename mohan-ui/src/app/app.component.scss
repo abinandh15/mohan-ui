@@ -1,0 +1,35 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.main-wrapper {
+  display: flex;
+  padding: 2rem;
+}
+
+.form-class {
+  display: flex;
+}
+
+.multi-select-wrappper {
+  width: 12rem;
+}
+
+.submit-btn {
+  padding-left: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: auto;
+
+  button {
+    color: white;
+    width: 5rem;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 2.5px;
+    background-color: #337ab7;
+  }
+}
+
+.state-dropdown {
+  height: 2.5rem;
+  width: 13rem;
+  padding: 0.5rem;
+}
